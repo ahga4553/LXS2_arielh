@@ -1,0 +1,395 @@
+    1  nmap [3
+    2  nmap 10.124.18.129
+    3  fdisk -l
+    4  netstat -ltunpa
+    5  clear
+    6  fdisk /dev/sda
+    7  shutdown -r now
+    8  sudo -s
+    9  sudo su -
+   10  apt - get install git
+   11  apt-get install git
+   12  ls
+   13  exit
+   14  ls
+   15  git clone https://github.com/freyesav/LXS2_freyesav.git
+   16  ls
+   17  apt -get git install
+   18  apt - get git install
+   19  clear
+   20  sudo -s
+   21  git clone https://github.com/freyesav/LXS2_freyesav.git
+   22  ls
+   23  cd lxs2
+   24  cd LXS2_freyesav/
+   25  ls
+   26  cd hisory
+   27  cd history
+   28  ls
+   29  git status
+   30  git add history_120716
+   31  git status
+   32  ls
+   33  git commit
+   34  git commit "History_LVM"
+   35  git config --global user.email "freyes.av@gmail.com"
+   36  git config --global user.name "freyesav"
+   37  git commit "History_LVM"
+   38  exit
+   39  sudo su -
+   40  vgdisplay server01
+   41  sudo su -
+   42  sudo su -
+   43  ls
+   44  LXS2_freyesa git add history_120716-ubuntu008
+   45  cd history
+   46  LXS2_freyesav/ls
+   47  ls
+   48  cd LXS2_freyesav/
+   49  ls
+   50  cd history
+   51  git add history-root_120716-ubuntu008 
+   52  ls
+   53  git add history_root_120716-ubuntu008 
+   54  sudo su-
+   55  apt-get install tree
+   56  sudo -s
+   57  apt-get install tree
+   58  ls
+   59  exit
+   60  id
+   61  ssh 
+   62  ifconfig
+   63  ssh 10.124.18.187
+   64  ls
+   65  cd LXS2_freyesav/
+   66  cd /tmp
+   67  git clone https://github.com/emvarg/LXS2_evargas.git
+   68  ls
+   69  cd LXS2_evargas/
+   70  ls
+   71  cd scripts
+   72  ls
+   73  ls -l
+   74  vim
+   75  cd ..
+   76  git pull origin master
+   77  tree
+   78  apt-get install tree
+   79  tree
+   80  clear
+   81  cd ..
+   82  clear
+   83  ls
+   84  sudo -s
+   85  clear
+   86  ls
+   87  cd root}
+   88  cd root
+   89  clear
+   90  sudo -s
+   91  ls
+   92  cd tmp
+   93  ls
+   94  LXS2_evargas/ls
+   95  history
+   96  ls
+   97  cd LXS2_evargas/
+   98  ls
+   99  exit
+  100  ls
+  101  clear
+  102  /etc/libvirt/storage/
+  103  ls
+  104  cd etc
+  105  ls
+  106  mount
+  107  tree
+  108  mnt
+  109  /mount
+  110  /mount ?
+  111  /srv
+  112  cd srv
+  113  cd /srv/
+  114  ls
+  115  cd /servidores/
+  116  cd /servidores
+  117  mkdir servidores
+  118  mkdir respaldos
+  119  mkdir porrespaldar
+  120  tree
+  121  tar -pczf data01-respaldo-15072016.tar.gz porrespaldar
+  122  ls
+  123  scp data01-respaldo-15072016.tar.gz sysadmin@192.168.122.45:
+  124  history
+  125  ls -l
+  126  htop
+  127  cd ..
+  128  cd /history
+  129  history
+  130  exit
+  131  ls
+  132  sudo -s
+  133  ls
+  134  cd LXS2_freyesav/ls
+  135  man bash
+  136  bash --version
+  137  echo $ bash version
+  138  cd temp
+  139  ls
+  140  mkdir tmp
+  141  ls
+  142  cd tmp
+  143  touch file1
+  144  ls
+  145  history > file1
+  146  mkdir folder {1,2,3}
+  147  touch folder{1,2,3}
+  148  tree
+  149  mkdir folder
+  150  mv folder folder -m
+  151  mv folder folder-m
+  152  mv folder{1,2,3} folder
+  153  mv folder{1,2,3} folder-m 
+  154  tree
+  155  cd folder-m
+  156  tree
+  157  cd ..
+  158  clear
+  159  cd tmp
+  160  cd folder
+  161  ls
+  162  cd folder-m
+  163  cd history
+  164  cd ..
+  165  ls
+  166  cd ..
+  167  ls
+  168  history
+  169  hystory > history_'date +%Y%m%d'
+  170  history > history_'date +%Y%m%d'
+  171  htop
+  172  sudo su -
+  173  ls
+  174  cd LXS2
+  175  cd LXS2_freyesav/
+  176  ls
+  177  cd history
+  178  hystory > history_'date +%Y%m%d'
+  179  hystory > history_190716
+  180  hystory > history_190716 $HOSTNAME
+  181  history > history_190716 $HOSTNAME
+  182  history > history_190716 
+  183  ls
+  184  git add history_190716
+  185  git status
+  186  git commit "History Clase 5"
+  187  git commit -m "History Clase 5"
+  188  git push https://github.com/freyesav/LXS2_freyesav.git
+  189  history
+  190  vim .bashrc
+  191  vim  ~/.bashrc
+  192  vim .bashrc
+  193  vim
+  194  pwd
+  195  sudo apt-get install vim
+  196  vim .bashrc
+  197  source ?
+  198  source LXS2_evargas
+  199  clear
+  200  vim /tmp/file1
+  201  ps -x
+  202  clear
+  203  pgrep nm-applet
+  204  sudo su-
+  205  sudo su -
+  206  cd LXS2_freyesav/
+  207  cd scripts
+  208  ls
+  209  cd src
+  210  ls
+  211  cd ..
+  212  cd mis
+  213  cd misc
+  214  ls
+  215  cd..
+  216  cd ..
+  217  cd src
+  218  vim Vscript1
+  219  bash Vscript1
+  220  echo " "> Vscript1
+  221  vim SpecVars.sh
+  222  cd src
+  223  ls
+  224  cd LXS2_freyesav/cd src
+  225  cd LXS2_freyesav/ls
+  226  cd LXS2_freyesav/
+  227  ls
+  228  cd src
+  229  touch archivo1.txt
+  230  sudo apt-get install exim4
+  231  sudo vim /etc/exim4/
+  232  sudo vim /etc/exim4/update-exim4.conf.conf 
+  233  sudo apt-get install ssh_server
+  234  sudo apt-get install openssh_server
+  235  ifconfig
+  236  sudo apt-get install openssh-server
+  237  fix-mising
+  238  ping yahoo.com
+  239  clear
+  240  ls
+  241  cd history_date +%Y%m%d
+  242  rm history_date +%Y%m%d
+  243  ls
+  244  cd LXS2_freyesav/
+  245  ls
+  246  cd misc
+  247  ls
+  248  cd ..
+  249  cd src
+  250  ls
+  251  rm Vscript1
+  252  ls
+  253  cd ..
+  254  clear
+  255  history
+  256  cd history
+  257  ls
+  258  >history git add history_260716
+  259  git add history_260716 $HOSTNAME
+  260  git add history_260716
+  261  clear
+  262  cd..
+  263  cd ..
+  264  alear
+  265  clear
+  266  sudo apt-get install exim4
+  267  if config; q; uit
+  268  clear
+  269  ifconfig
+  270  sudo apt-get install openssh-server
+  271  ifconfig
+  272  git status
+  273  cd LXS2_freyesav/git status
+  274  cd LXS2_freyesav/
+  275  ls
+  276  git status
+  277  git push https://github.com/freyesav/LXS2_freyesav.git
+  278  cd src
+  279  vim bash ciclofor
+  280  vim bash ciclofor.sh
+  281  vim bash ciclofor2.sh
+  282  resumen1.sh
+  283  vim /bash resumen1.sh
+  284  resumen1
+  285  ls
+  286  bash ciclofor.sh
+  287  bash ciclofor1.sh
+  288  /bash resumen1.sh
+  289  vim resumen1.sh
+  290  git status
+  291  git commit -m "Leccion 6"
+  292  git push origin master
+  293  ls
+  294  bash resumen1.sh
+  295  git commit "Clase 6"
+  296  cd ..
+  297  git commit "Clase 6"
+  298  clear
+  299  sudo get-apt install vim-nox
+  300  su -
+  301  exit
+  302  clear
+  303  su -
+  304  etc/sudoers
+  305  su -
+  306  cd ..
+  307  ls
+  308  cd sysadmin
+  309  ls
+  310  echo $PATH
+  311  history
+  312  hystory > history_290716 $HOSTNAME
+  313  cd LXS2_freyesav/
+  314  hystory > history_290716 $HOSTNAME
+  315  cd ..
+  316  sudo add user user1
+  317  clear
+  318  sudo add user user1
+  319  sudo adduser user1
+  320  sudo adduser user2
+  321  clear
+  322  hystory > history_290716 $HOSTNAME
+  323  cd LXS2_freyesav/
+  324  hystory > history_290716 $HOSTNAME
+  325  history
+  326  git add history_290716
+  327  git commit -m "History Clase 6"
+  328  git status
+  329  git push https://github.com/freyesav/LXS2_freyesav.git
+  330  git status
+  331  git add history/history
+  332  git add src/SpecVars.sh
+  333  git add src/Vscript1.err
+  334  git add src/archivo1.txt
+  335  git add src/bash
+  336  git commit -m " Actividad de  Clase 5-6"
+  337  git push https://github.com/freyesav/LXS2_freyesav.git
+  338  git status
+  339  clear
+  340  sudo cp deb00.img /var/lib/libvirt/images/
+  341  ls -lh
+  342  vim deb00.xml 
+  343  virsh define deb00.xml 
+  344  ls /etc/libvirt/qemu
+  345  virsh create deb00.xml 
+  346  virsh list --all
+  347  virsh net-list 
+  348  git clone https://github.com/emvarg/LXS2_evargas.git
+  349  cd LXS2_evargas/
+  350  ls
+  351  cd misc
+  352  ls
+  353  ifconfig
+  354  ping 172.31.20.69
+  355  sudo su
+  356  clear
+  357  sudo apt get install vim-nox
+  358  sudo apt get update
+  359  ifconfig
+  360  clear
+  361  mkdir LXS2_arielh
+  362  cd LXS2_arielh
+  363  pwd
+  364  mkdir history
+  365  vim .gitignore
+  366  tree
+  367  ls -a
+  368  mkdir src
+  369  mkdir misc
+  370  tree
+  371  touch history/file
+  372  touch misc/file
+  373  touch src/file
+  374  tree
+  375  git init
+  376  ls -la
+  377  tree git
+  378  tree .git
+  379  git config --global user.name "Ariel Gamez"
+  380  git config --global user.email ahga4553@gmail.com
+  381  cat ../.gitconfig
+  382  git status
+  383  git add .gitignore
+  384  git status
+  385  touch misc/file2
+  386  git add misc/
+  387  git status
+  388  git add history/
+  389  git add src/
+  390  git status
+  391  git commit -m "Inicio del arbol de Desarrollo"
+  392  ls -la
+  393  git log
+  394  history > history/history-$HOSTNAME-`DATE +%Y%m%d`
+  395  history > history/history-$HOSTNAME-`date +%Y%m%d`
