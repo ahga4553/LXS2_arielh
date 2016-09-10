@@ -1,0 +1,10 @@
+[  801.535866] vboxdrv: TSC mode is Invariant, tentative frequency 3457974815 Hz
+[  801.535870] vboxdrv: Successfully loaded version 5.1.4 (interface 0x00260000)
+[  801.741021] VBoxNetFlt: Successfully started.
+[  801.743539] VBoxNetAdp: Successfully started.
+[  801.746048] VBoxPciLinuxInit
+[  801.749841] vboxpci: IOMMU not found (not registered)
+[  904.031387] audit: type=1400 audit(1473517404.510:88): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=8664 comm="apparmor_parser"
+[  904.031395] audit: type=1400 audit(1473517404.510:89): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=8664 comm="apparmor_parser"
+[  904.031690] audit: type=1400 audit(1473517404.510:90): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=8664 comm="apparmor_parser"
+[  956.890530] perf interrupt took too long (2508 > 2500), lowering kernel.perf_event_max_sample_rate to 50000
