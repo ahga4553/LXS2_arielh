@@ -1,0 +1,15 @@
+lvdisplay: Muesta en pantalla los volumenes logicos.
+
+vgdisplay: Muestra en pantalla el grupo de volumen.
+
+pvdisplay: Muestra en la pantalla los volumenes fisicos.
+
+fdisk: con este comando se inicia el proceso para asignar formato al nuevo disco agregado. Es importante asiganar el formato 8e, el cual es el codigo del formato linux para LVM.
+
+pvcreate: crea el volumen fisico de la nueva particion.
+
+vgextend: es el comando que se encarga de agregar al grupo de de volumen el nuevo disco que se acaba de agregar.
+
+lvextend: el comando encargado de extender el volumen logico de las archivos.
+
+resize2fs: este es el comando que permite que el sistema reconozca la extencion realizada.

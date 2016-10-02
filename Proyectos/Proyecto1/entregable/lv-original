@@ -1,0 +1,51 @@
+  --- Logical volume ---
+  LV Path                /dev/centos/root
+  LV Name                root
+  VG Name                centos
+  LV UUID                t0UcO9-YsW3-hwGy-yfqq-7w3s-2FDa-bq3QkS
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2016-09-29 10:08:29 -0600
+  LV Status              available
+  # open                 1
+  LV Size                50,00 GiB
+  Current LE             12800
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:0
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/home
+  LV Name                home
+  VG Name                centos
+  LV UUID                ErBknb-5dlq-iHgf-dWg3-WL3e-pi3s-dJDkr9
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2016-09-29 10:08:30 -0600
+  LV Status              available
+  # open                 1
+  LV Size                27,45 GiB
+  Current LE             7026
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:2
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/swap
+  LV Name                swap
+  VG Name                centos
+  LV UUID                jpMxFd-Si38-9co9-liuv-dD0j-3lAm-3MSidb
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2016-09-29 10:08:31 -0600
+  LV Status              available
+  # open                 2
+  LV Size                2,00 GiB
+  Current LE             512
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:1
+   
