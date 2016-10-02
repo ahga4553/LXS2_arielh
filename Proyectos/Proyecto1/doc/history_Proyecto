@@ -1,0 +1,214 @@
+    1  pvdisplay
+    2  vgdisplay
+    3  lvdisplay
+    4  fdisk -l
+    5  fdisk / dev / sdb
+    6  shutdown -h now
+    7  history
+    8  pvcreate / dev / sdb1
+    9  fdisk -l
+   10  fdisk / dev / sdb
+   11  pvcreate / dev / sdb1
+   12  clear
+   13  fdisk -l
+   14  pwd
+   15  mkdir tarea
+   16  ls
+   17  shutdown -h now
+   18  history
+   19  pwd
+   20  ls
+   21  cd tarea
+   22  pwd
+   23  cat pvdisplay > pvdisplay.txt
+   24  cat pvdisplay > primer_comando
+   25  pvdisplay
+   26  cat pvdisplay > tarea/primer_comando
+   27  touch primer_comando
+   28  ls
+   29  vim pvdisplay.txt
+   30  yum install vim
+   31  ls
+   32  rm primer_comando 
+   33  rm pvdisplay.txt 
+   34  ls
+   35  pwd
+   36  pvdisplay > pvdisplay
+   37  ls
+   38  vgdisplay > vgdisplay
+   39  lvdisplay > lvdisplay
+   40  ls
+   41  vim pvdisplay
+   42  clear
+   43  ls
+   44  pwd
+   45  history
+   46  fdisk -l
+   47  fdisk / dev / sbd
+   48  pvcreate / dev / sdb1
+   49  fdisk -l > fdisk
+   50  vim fdisk
+   51  fdisk / dev / sdb
+   52  shutdown -h now
+   53  ls
+   54  cd tarea
+   55  ls
+   56  vim fdisk
+   57  pvcreate / dev / sdb1
+   58  pvcreate /dev /sdb1
+   59  pvcreate /dev/sdb1
+   60  dmesg | grep sdb
+   61  fdisk -l
+   62    shutdown -h now
+   63  vgdisplay
+   64  lvdisplay
+   65  lvextend -L200 /dev/mapper/centos-swap
+   66  help lvextend
+   67  lvextend -h
+   68  vgs
+   69  lvextend -L200m /dev/mapper/centos-swap
+   70  lvextend -L+200m /dev/mapper/centos-swap
+   71  lvdisplay 
+   72  resize2fs /dev/mapper/centos-swap
+   73  lvextend -L+512m /dev/mapper/centos-root
+   74  pvdisplay
+   75  vgdisplay
+   76  lvdisplay
+   77  resize2fs /dev/mapper/centos-root
+   78  pvdisplay > pvdisplay_despues
+   79  vgdisplay > vgdisplay_despues
+   80  lvdisplay > lvdisplay_despues
+   81  fdisk -l > fdisk_despues
+   82  ls
+   83  pwd
+   84  mv lvdisplay_despues /tarea
+   85  ls
+   86  mv pvdisplay_despues /tarea
+   87  ls
+   88  cd tarea
+   89  ls
+   90  pwd
+   91  vgdisplay
+   92  vim pvdisplay
+   93  vim lvdisplay
+   94  vim vgdisplay
+   95  ls
+   96  pvdisplay > pvdisplay_despues
+   97  vgdisplay > vgdisplay_despues
+   98  lvdisplay > lvdisplay_despues
+   99  ls
+  100  vim fdisk_disco_nuevo 
+  101  ls
+  102  vim cd ..
+  103  cd ..
+  104  pwd
+  105  mkdir Proyecto1
+  106  ls
+  107  rm fdisk_despues
+  108  rm pvdisplay_despues 
+  109  rm vgdisplay_despues 
+  110  ls
+  111  mv /tarea //Proyecto1
+  112  ls
+  113  cd Proyecto1/
+  114  ls
+  115  cd ..
+  116  cd tarea
+  117  ls
+  118  mv lvdisplay lv-original
+  119  ls
+  120  mv lvdisplay_despues lv-extendido
+  121  mv pvdisplay_despues pv-extendido
+  122  mv pvdisplay pv-original
+  123  ls
+  124  mv vgdisplay vg-original
+  125  mv vgdisplay_despues vg-extendido
+  126  ls
+  127  cd ..
+  128  ls
+  129  rmdir Proyecto1
+  130  ls
+  131  mkdir Proyectos
+  132  cd Proyectos
+  133  mkdir Proyecto1
+  134  mkdir doc
+  135  mkdir entregable
+  136  ls
+  137  rmdir doc
+  138  rmdir entregable
+  139  Ls
+  140  ls
+  141  cd Proyecto1/
+  142  mkdir doc
+  143  rmdir entregable
+  144  ls
+  145  mkdir entregable
+  146  los
+  147  ls
+  148  cd ..
+  149  ls
+  150  cp tarea/ Proyectos/Proyecto1/entregable/
+  151  cp tarea Proyectos/Proyecto1/entregable/
+  152  cd Proyectos/Proyecto1/entregable/
+  153  ls
+  154  cd .. .. ..
+  155  cd ..
+  156  cp /tarea/ Proyectos/Proyecto1/entregable/
+  157  cd tarea
+  158  mv vg-original Proyectos/Proyecto1/entregable/
+  159  cd ..
+  160  cd home/curso/tarea
+  161  mv vg-original /home/curso/Proyectos/Proyecto1/entregable/
+  162  mv vg-extendido /home/curso/Proyectos/Proyecto1/entregable/
+  163  mv lv-extendido /home/curso/Proyectos/Proyecto1/entregable/
+  164  mv lv-original /home/curso/Proyectos/Proyecto1/entregable/
+  165  ls
+  166  mv pv-original /home/curso/Proyectos/Proyecto1/entregable/
+  167  mv pv-extendido /home/curso/Proyectos/Proyecto1/entregable/
+  168  cd /home/curso/Proyectos/Proyecto1/entregable/
+  169  ls
+  170  window -h
+  171  vgdisplay rootsnapshot > captura-VG-extendido.jpeg
+  172  rootsnapshot vgdisplay > captura-VG-extendido.jpeg
+  173  rootsnapshot -h
+  174  yum install tree
+  175  cd ..
+  176  tree
+  177  cd Proyecto1/
+  178  cd entregable/
+  179  vim captura-VG-extendido.jpeg 
+  180  cd ..
+  181  tree
+  182  cd Proyecto1/
+  183  cd doc/
+  184  touch proyecto1.txt
+  185  vim proyecto1.txt 
+  186  history
+  187  vim proyecto1.txt 
+  188  cd ..
+  189  tree
+  190  cd ..
+  191  yum install git
+  192  git pull https://github/ahga4553/LXS2_arielh.git
+  193  git clone https://github/ahga4553/LXS2_arielh.git
+  194  ls
+  195  git clone https://github/ahga4553/LXS2_arielh.git
+  196  git status
+  197  git clone https://github.com/ahga4553/LXS2_arielh.git
+  198  ls
+  199  mv /Proyectos/ /home/curso/LXS2_arielh/
+  200  cp -r /Proyectos/ /home/curso/LXS2_arielh/
+  201  cp -r Proyectos/ /home/curso/LXS2_arielh/
+  202  cd LXS2_arielh/
+  203  ls
+  204  cd Proyectos
+  205  tree
+  206  git status
+  207  cd ..
+  208  git status
+  209  git add Proyectos/
+  210  git status
+  211  git commit -m "Proyecto de Investigacion 1"
+  212  git push
+  213  cd Proyectos/Proyecto1/doc/
+  214  history > history_Proyecto
