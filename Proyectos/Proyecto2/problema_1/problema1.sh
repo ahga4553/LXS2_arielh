@@ -22,7 +22,7 @@ m=0
 for e in `find $OUT_DATA -name "*.csv"`
 do
 	echo "Dando formato de datos para graficar al archivo $e"
-	cat $e | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1 s/date/#date/g' > $GR   AF_DATA/graf-$m.dat
+	cat $e | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1 s/date/#date/g' > $GRAF_DATA/graf-$m.dat
 	let m=m+1
 done 2> error2.log
 
