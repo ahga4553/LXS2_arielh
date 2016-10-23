@@ -5,9 +5,13 @@ OUT_DATA=$DATA/datos_csv
 GRAF_DATA=$DATA/datos_graf
 FULL_DATA=$DATA/full_datos
 
-mkdir $DATA/datos_csv
-mkdir $GRAF_DATA
-mkdir $FULL_DATA
+
+if [! -d $datos_csv ] | [ ! -d $GRAF_DATA ] | [ ! -d $FULL_DATA ]
+then
+	mkdir $DATA/datos_csv
+	mkdir $GRAF_DATA
+	mkdir $FULL_DATA
+fi
 m=0
 
 for i in `find $DATA -name '*.xls'`
@@ -22,7 +26,7 @@ m=0
 for e in `find $OUT_DATA -name "*.csv"`
 do
 	echo "Dando formato de datos para graficar al archivo $e"
-	cat $e | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1 s/date/#date/g' > $GRAF_DATA/graf-$m.dat
+	cat $e | awk -F "\",\"" '{print $2}' | sed '1,$ s/"//g'  > $GRAF_DATA/graf-$m.dat
 	let m=m+1
 done 2> error2.log
 
